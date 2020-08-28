@@ -1,4 +1,4 @@
-# shiftpicdate
+# shiftpicdate [![Build Status](https://cloud.drone.io/api/badges/a-lemonnier/shiftpicdate/status.svg)](https://cloud.drone.io/a-lemonnier/shiftpicdate) ![C/C++ CI](https://github.com/a-lemonnier/shiftpicdate/workflows/C/C++%20CI/badge.svg)
 
 Shift the exif tag date using Exiv2 C++ library.
 
