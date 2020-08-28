@@ -18,7 +18,7 @@ jobs:
     - name: install boost
       run: sudo apt install -y libboost-all-dev libboost-test-dev
     - name: install exiv2
-      run: sudo apt install -y exiv2 libexiv2 libexiv2-dev
+      run: sudo apt install -y exiv2 libexiv2-dev
     - name: configure
       run: mkdir build && cd build && cmake ..
     - name: build

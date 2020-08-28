@@ -39,7 +39,7 @@ set_property(TARGET shiftpicdate PROPERTY CXX_STANDARD_REQUIRED ON)
 find_package( Boost 1.40 COMPONENTS program_options 
                          REQUIRED timer filesystem unit_test_framework)
 
-find_package(exiv2 REQUIRED)
+find_package(Exiv2 REQUIRED)
                          
 target_link_libraries(shiftpicdate LINK_PUBLIC ${Boost_LIBRARIES} -lpthread -lstdc++fs -lexiv2)
 
