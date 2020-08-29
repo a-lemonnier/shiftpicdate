@@ -201,11 +201,11 @@ std::string stoyear(long long t) {
         << (((t0 % Y) % D) % H) / M << "m "
         << (((t0 % Y) % D) % H) % M << "s"; 
     else
-        ssS << (  t0 / Y)           << "y "
-        << (  t0 % Y) / D           << "d "
-        << (( t0 % Y) % D) / H      << "h "
-        << (((t0 % Y) % D) % H) / M << "m "
-        << (((t0 % Y) % D) % H) % M << "s"; 
+        ssS << (  0 / Y)           << "y "
+        << (  t % Y) / D           << "d "
+        << (( t % Y) % D) / H      << "h "
+        << (((t % Y) % D) % H) / M << "m "
+        << (((t % Y) % D) % H) % M << "s"; 
     
     return ssS.str();
 }
