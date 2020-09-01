@@ -256,7 +256,7 @@ void shift_q(std::vector<std::string> vList, long long Diff) {
                 
                 auto pImg=Exiv2::ImageFactory::open(sFile);
                 
-                   pImg->readMetadata();
+                pImg->readMetadata();
                 
                 Exiv2::ExifData &exifData = pImg->exifData();
                 
